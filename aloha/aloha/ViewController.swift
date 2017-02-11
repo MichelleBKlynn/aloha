@@ -24,10 +24,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        AlohaAPIClient.getAPIData { (response) in
-            print("called api")
-        }
         
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
@@ -37,20 +33,12 @@ class ViewController: UIViewController {
     // MARK: Loading and saving functions
     func loadAllMessages() {
         messages = []
-        guard let savedItems = UserDefaults.standard.array(forKey: PreferencesKeys.savedItems) else { return }
-        for savedItem in savedItems {
-            guard let message = NSKeyedUnarchiver.unarchiveObject(with: savedItem as! Data) as? Message else { continue }
-            add(message: message)
+        
+        AlohaAPIClient.getAPIData { (response) in
+            print("called api")
+            //apend 
         }
-    }
-    
-    func saveAllMessages() {
-        var items: [Data] = []
-        for message in messages {
-            let item = NSKeyedArchiver.archivedData(withRootObject: message)
-            items.append(item)
-        }
-        UserDefaults.standard.set(items, forKey: PreferencesKeys.savedItems)
+
     }
     
     // MARK: Functions that update the model/associated views with messages changes
@@ -187,7 +175,7 @@ extension ViewController: MKMapViewDelegate {
 
         let message = view.annotation as! Message
         remove(message: message)
-        saveAllMessages()
+        loadAllMessages()
     }
     
 }
