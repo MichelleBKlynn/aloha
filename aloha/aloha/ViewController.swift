@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(items, forKey: PreferencesKeys.savedItems)
     }
     
-    // MARK: Functions that update the model/associated views with geotification changes
+    // MARK: Functions that update the model/associated views with messages changes
     func add(message: Message) {
         messages.append(message)
         mapView.addAnnotation(message as MKAnnotation)
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
         mapView.zoomToUserLocation()
     }
     
-    func region(withGeotification message: Message) -> CLCircularRegion {
+    func region(withMessage message: Message) -> CLCircularRegion {
 
         let region = CLCircularRegion(center: message.coordinate, radius: message.radius, identifier: message.identifier)
 
@@ -118,7 +118,7 @@ class ViewController: UIViewController {
             showAlert(withTitle:"Warning", message: "Your message is saved but will only be activated once you grant Aloha permission to access the device location.")
         }
 
-        let region = self.region(withGeotification: message)
+        let region = self.region(withMessage: message)
 
         locationManager.startMonitoring(for: region)
     }

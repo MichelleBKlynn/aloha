@@ -12,6 +12,7 @@ class Constants {
     //test coordinates = Brooklyn Bridge
     static let xcoordinate: Double = 40.7
     static let ycoordinate: Double = 73.9
+    static let radius: Double = 100
 }
 
 
@@ -21,7 +22,7 @@ class AlohaAPIClient {
     
     class func getAPIData(with completion: @escaping (String)-> Void) {
         
-        let urlString: String = "https://requestb.in/1hl4rhx1?x=\(Constants.xcoordinate)&y=\(Constants.ycoordinate)"
+        let urlString: String = "https://requestb.in/1hl4rhx1?x=\(Constants.xcoordinate)&y=\(Constants.ycoordinate)&radius=\(radius)"
         
         let url = URL(string: urlString)
         
