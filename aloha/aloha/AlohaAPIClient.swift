@@ -22,7 +22,7 @@ class AlohaAPIClient {
     
     class func getAPIData(with completion: @escaping (String)-> Void) {
         
-        let urlString: String = "https://requestb.in/1hl4rhx1?x=\(Constants.xcoordinate)&y=\(Constants.ycoordinate)&radius=\(radius)"
+        let urlString: String = "https://requestb.in/1hl4rhx1?x=\(Constants.xcoordinate)&y=\(Constants.ycoordinate)&radius=\(Constants.radius)"
         
         let url = URL(string: urlString)
         
