@@ -16,6 +16,8 @@
 		31383D991E4F6F23003D68F7 /* alohaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383D981E4F6F23003D68F7 /* alohaTests.swift */; };
 		31383DA41E4F6F23003D68F7 /* alohaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DA31E4F6F23003D68F7 /* alohaUITests.swift */; };
 		31383DB21E4F7778003D68F7 /* ReceivedMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */; };
+		31383DB41E4F941A003D68F7 /* WelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DB31E4F941A003D68F7 /* WelcomeScreenVC.swift */; };
+		31383DB61E4F951F003D68F7 /* ListOfSendersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DB51E4F951F003D68F7 /* ListOfSendersVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		31383DA31E4F6F23003D68F7 /* alohaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alohaUITests.swift; sourceTree = "<group>"; };
 		31383DA51E4F6F23003D68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedMessageVC.swift; sourceTree = "<group>"; };
+		31383DB31E4F941A003D68F7 /* WelcomeScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenVC.swift; sourceTree = "<group>"; };
+		31383DB51E4F951F003D68F7 /* ListOfSendersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfSendersVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */,
 				31383D8F1E4F6F23003D68F7 /* Info.plist */,
 				31383D871E4F6F23003D68F7 /* aloha.xcdatamodeld */,
+				31383DB31E4F941A003D68F7 /* WelcomeScreenVC.swift */,
+				31383DB51E4F951F003D68F7 /* ListOfSendersVC.swift */,
 				31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */,
 			);
 			path = aloha;
@@ -267,6 +273,8 @@
 			files = (
 				31383D831E4F6F23003D68F7 /* ViewController.swift in Sources */,
 				31383D891E4F6F23003D68F7 /* aloha.xcdatamodeld in Sources */,
+				31383DB41E4F941A003D68F7 /* WelcomeScreenVC.swift in Sources */,
+				31383DB61E4F951F003D68F7 /* ListOfSendersVC.swift in Sources */,
 				31383D811E4F6F23003D68F7 /* AppDelegate.swift in Sources */,
 				31383DB21E4F7778003D68F7 /* ReceivedMessageVC.swift in Sources */,
 			);
