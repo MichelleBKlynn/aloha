@@ -15,6 +15,7 @@
 		31383D8E1E4F6F23003D68F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */; };
 		31383D991E4F6F23003D68F7 /* alohaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383D981E4F6F23003D68F7 /* alohaTests.swift */; };
 		31383DA41E4F6F23003D68F7 /* alohaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DA31E4F6F23003D68F7 /* alohaUITests.swift */; };
+		31383DB21E4F7778003D68F7 /* ReceivedMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31383D9F1E4F6F23003D68F7 /* alohaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alohaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31383DA31E4F6F23003D68F7 /* alohaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alohaUITests.swift; sourceTree = "<group>"; };
 		31383DA51E4F6F23003D68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedMessageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */,
 				31383D8F1E4F6F23003D68F7 /* Info.plist */,
 				31383D871E4F6F23003D68F7 /* aloha.xcdatamodeld */,
+				31383DB11E4F7778003D68F7 /* ReceivedMessageVC.swift */,
 			);
 			path = aloha;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				31383D831E4F6F23003D68F7 /* ViewController.swift in Sources */,
 				31383D891E4F6F23003D68F7 /* aloha.xcdatamodeld in Sources */,
 				31383D811E4F6F23003D68F7 /* AppDelegate.swift in Sources */,
+				31383DB21E4F7778003D68F7 /* ReceivedMessageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +513,7 @@
 				31383DAA1E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31383DAB1E4F6F23003D68F7 /* Build configuration list for PBXNativeTarget "alohaTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				31383DAD1E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31383DAE1E4F6F23003D68F7 /* Build configuration list for PBXNativeTarget "alohaUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				31383DB01E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
