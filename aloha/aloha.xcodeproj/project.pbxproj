@@ -15,6 +15,7 @@
 		31383D8E1E4F6F23003D68F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */; };
 		31383D991E4F6F23003D68F7 /* alohaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383D981E4F6F23003D68F7 /* alohaTests.swift */; };
 		31383DA41E4F6F23003D68F7 /* alohaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DA31E4F6F23003D68F7 /* alohaUITests.swift */; };
+		7183228A1E4F728C00B51C5D /* AlohaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718322891E4F728C00B51C5D /* AlohaAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31383D9F1E4F6F23003D68F7 /* alohaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alohaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31383DA31E4F6F23003D68F7 /* alohaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alohaUITests.swift; sourceTree = "<group>"; };
 		31383DA51E4F6F23003D68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718322891E4F728C00B51C5D /* AlohaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlohaAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				31383D801E4F6F23003D68F7 /* AppDelegate.swift */,
 				31383D821E4F6F23003D68F7 /* ViewController.swift */,
+				718322891E4F728C00B51C5D /* AlohaAPIClient.swift */,
 				31383D841E4F6F23003D68F7 /* Main.storyboard */,
 				31383D8A1E4F6F23003D68F7 /* Assets.xcassets */,
 				31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31383D831E4F6F23003D68F7 /* ViewController.swift in Sources */,
+				7183228A1E4F728C00B51C5D /* AlohaAPIClient.swift in Sources */,
 				31383D891E4F6F23003D68F7 /* aloha.xcdatamodeld in Sources */,
 				31383D811E4F6F23003D68F7 /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +513,7 @@
 				31383DAA1E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31383DAB1E4F6F23003D68F7 /* Build configuration list for PBXNativeTarget "alohaTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				31383DAD1E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31383DAE1E4F6F23003D68F7 /* Build configuration list for PBXNativeTarget "alohaUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				31383DB01E4F6F23003D68F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
