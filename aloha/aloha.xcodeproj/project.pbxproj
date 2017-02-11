@@ -17,6 +17,9 @@
 		31383DA41E4F6F23003D68F7 /* alohaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31383DA31E4F6F23003D68F7 /* alohaUITests.swift */; };
 		7183228A1E4F728C00B51C5D /* AlohaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718322891E4F728C00B51C5D /* AlohaAPIClient.swift */; };
 		7183228C1E4F864300B51C5D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7183228B1E4F864300B51C5D /* Message.swift */; };
+		7183228E1E4F9ADA00B51C5D /* WelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7183228D1E4F9ADA00B51C5D /* WelcomeScreenVC.swift */; };
+		718322901E4F9B0A00B51C5D /* ListOfSendersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7183228F1E4F9B0A00B51C5D /* ListOfSendersVC.swift */; };
+		718322921E4F9B2200B51C5D /* ReceivedMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718322911E4F9B2200B51C5D /* ReceivedMessagesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		31383DA51E4F6F23003D68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718322891E4F728C00B51C5D /* AlohaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlohaAPIClient.swift; sourceTree = "<group>"; };
 		7183228B1E4F864300B51C5D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7183228D1E4F9ADA00B51C5D /* WelcomeScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenVC.swift; sourceTree = "<group>"; };
+		7183228F1E4F9B0A00B51C5D /* ListOfSendersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfSendersVC.swift; sourceTree = "<group>"; };
+		718322911E4F9B2200B51C5D /* ReceivedMessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedMessagesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				7183228B1E4F864300B51C5D /* Message.swift */,
 				718322891E4F728C00B51C5D /* AlohaAPIClient.swift */,
 				31383D841E4F6F23003D68F7 /* Main.storyboard */,
+				7183228D1E4F9ADA00B51C5D /* WelcomeScreenVC.swift */,
+				7183228F1E4F9B0A00B51C5D /* ListOfSendersVC.swift */,
+				718322911E4F9B2200B51C5D /* ReceivedMessagesVC.swift */,
 				31383D8A1E4F6F23003D68F7 /* Assets.xcassets */,
 				31383D8C1E4F6F23003D68F7 /* LaunchScreen.storyboard */,
 				31383D8F1E4F6F23003D68F7 /* Info.plist */,
@@ -271,8 +280,11 @@
 				31383D831E4F6F23003D68F7 /* ViewController.swift in Sources */,
 				7183228A1E4F728C00B51C5D /* AlohaAPIClient.swift in Sources */,
 				7183228C1E4F864300B51C5D /* Message.swift in Sources */,
+				718322921E4F9B2200B51C5D /* ReceivedMessagesVC.swift in Sources */,
+				718322901E4F9B0A00B51C5D /* ListOfSendersVC.swift in Sources */,
 				31383D891E4F6F23003D68F7 /* aloha.xcdatamodeld in Sources */,
 				31383D811E4F6F23003D68F7 /* AppDelegate.swift in Sources */,
+				7183228E1E4F9ADA00B51C5D /* WelcomeScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ struct PreferencesKeys {
 
 class ViewController: UIViewController {
     
-    var mapView = MKMapView()
+    @IBOutlet weak var mapView: MKMapView!
     
     var messages: [Message] = []
     var locationManager = CLLocationManager()
